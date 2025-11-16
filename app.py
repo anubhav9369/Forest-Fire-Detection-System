@@ -18,7 +18,7 @@ def load_model():
         nn.Dropout(0.4),
         nn.Linear(256, 2)
     )
-    model.load_state_dict(torch.load("/Users/anubhavverma/Documents/Fire_classification/fire_classifier_resnet50.pth", map_location="cpu"))
+    model.load_state_dict(torch.load("fire_classifier_resnet50.pth", map_location="cpu"))
     model.eval()
     return model
 
