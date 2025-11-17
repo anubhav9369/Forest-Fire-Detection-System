@@ -16,7 +16,8 @@ The app is built with Streamlit and deployed on Streamlit Cloud.
 - ResNet50 (Transfer Learning)
 
 ## ▶ Run Locally
-
+As well as Globally 
+https://forest-fire-detection-system.streamlit.app/
 
 ## 🌐 Deployment
 This project is deployed using Streamlit Cloud.
